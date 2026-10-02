@@ -62,12 +62,3 @@ The v1 wire format and compatibility rules are documented in [`docs/PROTOCOL.md`
 Vesperfold is released under the MIT License. See [`LICENSE`](LICENSE). Contributions should preserve the protocol and security boundary described in the protocol document. See [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`SECURITY.md`](SECURITY.md).
 
 The name has not been legally cleared or checked for domain availability. The public source repository is [github.com/AKMessi/vesperfold](https://github.com/AKMessi/vesperfold); do not treat the project name as an exclusive trademark.
-
-## Release checklist
-
-- [x] Create a public GitHub repository and push the source.
-- [x] Confirm the main-branch build workflow succeeds.
-- [ ] Enable Pages in repository settings and verify the hosted demo after deployment.
-- [ ] Review the deployed asset bundle and the headers actually supplied by the host.
-- [ ] Ask an independent cryptography reviewer to review the protocol and implementation before making stronger security claims.
-- [x] Keep the PIN-strength warning visible wherever users create or share a package.
